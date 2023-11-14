@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'djangoSwagger.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'BookProject',
+        'USER': 'sasha',
+        'PASSWORD': '12QWASZX',
+        'HOST': 'localhost',
+        'PORT': '9002',
     }
 }
 
